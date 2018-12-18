@@ -8,17 +8,9 @@ labels:
   service_type: testextends
 
 variables:
-- name: repo_name
-  description: Repository Name
-  default: Iron-Skillet
-  type_hint: text
-- name: url
-  description: Git URL
-  default: https://github.com/PaloAltoNetworks/iron-skillet.git
-  type_hint: text
-- name: branch
-  description: Branch
-  default: master
+- name: test
+  description: Test Variable
+  default: panhandler
   type_hint: text
 
 snippets:
