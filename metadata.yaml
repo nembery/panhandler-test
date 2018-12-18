@@ -5,7 +5,7 @@ type: template
 extends: test456
 
 labels:
-  service_type: testextends
+  service_type: something_new
 
 variables:
 - name: test
