@@ -1,2 +1,6 @@
 .idea
 *pyc
+.venv*
+Pipfile.lock
+.pipenv_init_done
+terraform.tfstate*
